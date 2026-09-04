@@ -1,0 +1,7 @@
+org/example/persistencia/ProductoRepositorioMySQL.class
+org/example/dominio_negocio/Producto.class
+org/example/dominio_negocio/ProductoServicio.class
+org/example/persistencia/ProductoRepositorioH2.class
+org/example/persistencia/ProductoRepositorioSimulado.class
+org/example/controlador_servicio/ProductoControladorServicio.class
+org/example/persistencia/ProductoRepositorio.class

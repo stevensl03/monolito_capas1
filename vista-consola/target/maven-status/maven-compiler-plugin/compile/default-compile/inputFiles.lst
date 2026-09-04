@@ -1,0 +1,8 @@
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/Main.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/controlador_servicio/ProductoControladorServicio.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/dominio_negocio/Producto.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/dominio_negocio/ProductoServicio.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/persistencia/ProductoRepositorio.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/persistencia/ProductoRepositorioH2.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/persistencia/ProductoRepositorioMySQL.java
+/home/steven/IdeaProjects/monolito_capas1/vista-consola/src/main/java/org/example/persistencia/ProductoRepositorioSimulado.java
