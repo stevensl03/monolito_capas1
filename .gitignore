@@ -1,6 +1,14 @@
 target/
 *.class
-*.jar
-.idea/
 *.iml
+.idea/
 .vscode/
+
+# Base H2 generada al ejecutar las aplicaciones
+datos/
+
+# Los .jar no se versionan...
+*.jar
+# ...salvo los entregables de dist/
+!dist/
+!dist/*.jar
