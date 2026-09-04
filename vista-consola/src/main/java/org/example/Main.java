@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.controlador_servicio.ProductoControladorServicio;
 import org.example.dominio_negocio.Producto;
+import org.example.dominio_negocio.ProductoServicio;
+import org.example.persistencia.ProductoRepositorioSimulado;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +11,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        ProductoControladorServicio controlador = new ProductoControladorServicio();
+        ProductoControladorServicio controlador = new ProductoControladorServicio(
+                new ProductoServicio(new ProductoRepositorioSimulado()));
         Scanner scanner = new Scanner(System.in);
         int opcion = -1;
 

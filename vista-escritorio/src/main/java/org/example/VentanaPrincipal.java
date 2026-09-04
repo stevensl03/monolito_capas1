@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.controlador_servicio.ProductoControladorServicio;
 import org.example.dominio_negocio.Producto;
+import org.example.dominio_negocio.ProductoServicio;
+import org.example.persistencia.ProductoRepositorioH2;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,7 +11,8 @@ import java.util.List;
 
 public class VentanaPrincipal extends JFrame {
 
-    private final ProductoControladorServicio controlador = new ProductoControladorServicio();
+    private final ProductoControladorServicio controlador = new ProductoControladorServicio(
+            new ProductoServicio(new ProductoRepositorioH2()));
     private final JTextField campoNombre = new JTextField(10);
     private final JTextField campoPrecio = new JTextField(5);
     private final JTextField campoStock = new JTextField(5);
